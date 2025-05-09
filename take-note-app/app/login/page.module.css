@@ -1,0 +1,135 @@
+.loginMain{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #f8c44d;
+    margin: 30px auto;
+    padding: 0px 40px 40px 40px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+    border-radius: 2%;
+    width:35rem;
+    height:31.5rem;
+}
+
+.loginMain h1{
+    color:#362f28;
+    margin: 30px auto 0 auto;
+    font-size: 2.5rem;
+}
+
+.title{
+    margin:20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #f8c44d;
+    padding: 0;
+    width:40rem;
+    height:8rem;
+}
+
+.title label{
+    font-size: 1.5rem;
+    padding: 20px 0 10px 0;
+    color:rgb(48, 48, 48);
+    font-weight: 1000;
+}
+
+.title input ,.body input{
+    margin: 0px 0 0 0;
+    border: none;
+    width:36rem;
+    height:3.8rem;
+    background-color: #f4f2e6;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.title input::placeholder ,.body input::placeholder{
+    font-size: 1.5rem;
+    color:#43424126;
+}
+
+.title input:focus, .body input:focus{
+    outline:none;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 0 0 0;
+}
+
+.body label{
+    font-size: 1.5rem;
+    padding: 20px 0 10px 0;
+    color:rgb(48, 48, 48);
+    font-weight: 1000;
+}
+
+
+.body textarea:focus{
+    outline: none;
+}
+
+.actions{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.actions a{
+    text-decoration: none;
+    color: #362f28;
+    font-weight: 800;
+}
+
+.actions a:hover{
+    color: #f84d4d;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, font-size 0.3s ease;
+
+}
+
+.actions button{
+    margin-top: 0px;
+    width:10rem;
+    height:4rem;
+    background-color: #f4f2e6;
+    border: 0px solid black;
+    font-size: 1.5rem;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    font-weight: 800;
+}
+
+.actions button:hover{
+    cursor: pointer;
+    color: #f8c44d;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.signUpArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+}
+
+.signUpArea h3{
+    color:#362f28;
+    font-size: 1.2rem;
+}
+
+.signUpArea h3:hover{
+    cursor: pointer;
+    color:#74512D;
+    transition: color 0.3s ease;
+}
+
+

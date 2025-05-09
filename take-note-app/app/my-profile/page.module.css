@@ -1,0 +1,25 @@
+.searchMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchMain button{
+    margin-top: 0.4rem;
+    width:10rem;
+    height:4rem;
+    border-radius: 8%;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    border:0;
+    box-shadow: 4px 4px 8px rgba(113, 86, 55, 0.521);
+}
+
+.searchMain button:hover{
+    cursor: pointer;
+    background-color: #a2784e;
+    color: #f4f2e6;
+    transition: background-color 0.5s ease;
+    transition: color 0.5 ease;
+    box-shadow: 4px 4px 8px rgba(113, 86, 55, 0.521);
+}

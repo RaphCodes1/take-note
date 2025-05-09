@@ -1,0 +1,73 @@
+.HeaderMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -10px -11px 10px -10px;
+    min-height: 69px;
+    max-width: 120rem;
+    padding:40px 75px 40px 90px;
+    background-color: #f8c44d;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo h1{
+    padding-left: 30px;
+    display: flex;
+    text-decoration: none;
+    color: #362f28;
+    font-size: 3rem;
+}
+
+.logo h1:hover{
+    color:#74512D;
+    transition: color 0.3s ease;
+}
+
+.navBar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5rem;
+    margin: 0;
+}
+
+.navBar ul{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: #362f28;
+    font-weight: 800;
+}
+
+.navBar a:hover{
+    color: #74512D;
+    transition: color 0.3s ease;
+}
+
+.navBar button{
+    margin-top: 0.4rem;
+    width:10rem;
+    height:4rem;
+    border-radius: 8%;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    border:0;
+    box-shadow: 4px 4px 8px rgba(113, 86, 55, 0.521);
+}
+
+.navBar button:hover{
+    cursor: pointer;
+    background-color: #a2784e;
+    color: #f4f2e6;
+    transition: background-color 0.5s ease;
+    transition: color 0.5 ease;
+    box-shadow: 4px 4px 8px rgba(113, 86, 55, 0.521);
+}

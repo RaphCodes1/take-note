@@ -1,0 +1,108 @@
+.backdrop{
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height :100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.invisible{
+    display: none;
+}
+
+
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width:50rem;
+    height:30rem;
+    margin: -100px auto 0px auto;
+    padding: 20px 20px 20px 20px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1;
+    background-color: #f4f3ed;
+}
+
+.exit {
+    height: 2rem;
+    width:55rem;
+    background-color: #f8c44d;
+    padding: 10px 0 0px 0;
+    margin: -20px auto 0 -50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    z-index:2;
+}
+
+.exit button{
+    margin-left: 40px;
+    width:30px;
+    height: 30px;
+    border: 2px solid rgba(66, 64, 64, 0.353);
+    border-radius: 10px;
+    background-color: #f8c44d;
+    color: rgba(50, 49, 49, 0.411);
+    font-size: 1rem;
+}
+
+.exit button:hover {
+    cursor: pointer;
+    background-color: #fc5959;
+    color:#f4f2e6;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.modal::-webkit-scrollbar {
+    width: 0px; /* width of vertical scrollbar */
+    height: 12px; /* height of horizontal scrollbar */
+}
+
+.modal::-webkit-scrollbar-track {
+    background-color: #f4f2e6;
+}
+
+.modal::-webkit-scrollbar-thumb {
+    background-color: #989898; /* your custom color */
+    border-radius: 6px;
+}
+
+
+.modal h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -20px -30px 0 -30px;
+    min-height: 6rem;
+    background-color: #f8c44d;
+    width:48rem;
+    font-size: 2rem;
+    color: #362f28;
+    word-break: break-word;
+    height: auto;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+}
+
+.modal p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 0 auto;
+    font-size: 1.2rem;
+    padding: 0px 30px;
+    text-align: justify;
+    line-height: 1.5;
+    word-spacing: 0.3rem;
+    color: #3d3731;
+    word-break: break-word;
+}
